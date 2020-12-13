@@ -9,7 +9,6 @@ body{
   background: #f6f5f7;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: -20px 0 50px;
@@ -186,7 +185,7 @@ button.ghost{
 
 .container.right-panel-active .sign-in-container {
   transform: translateX(100%);
-}
+ }
 
 
 .container.right-panel-active .overlay-container {
@@ -201,11 +200,11 @@ button.ghost{
 
 .container.right-panel-active .overlay{
   transform: translateX(50%);
-
+  
 }
 
 .container.right-panel-active .overlay-left{
-  transform: translateX(0);
+  transform: translateX(0%);
 }
 
 .container.right-panel-active .overlay-right {
@@ -234,5 +233,4 @@ button.ghost{
 }
 
        /*  B   R   E   A   K   */
-
 
