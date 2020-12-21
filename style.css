@@ -251,27 +251,39 @@ button.ghost{
     font-size: 0.6rem;
     margin: 4px 0;
   }
+
+  form button{
+    margin-top: 10px;
+  }
+
   
   .form-container input{
     font-size: 0.6rem;
-    padding: 0.4rem 0.6rem;
+    padding: 0.2rem 0.6rem;
     margin: 2px 0;
     width: 100%;
   }
   .social-container{
-    margin: 8px 0;
+    margin: 3px 0;
   }
 
 
   .social-container a{
-    width: 1.2rem;
-    height: 1.2rem;
-    font-size: 0.8rem;
-    margin: 0 1px;
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.6rem;
+    margin: 1px 1px;
 
   }
   .container button{
-    font-size: 0.6rem;
-    padding: 0.5rem 0.8rem;
+    font-size: 0.5rem;
+    padding: 0.3rem 0.8rem;
+  }
+  #error-up{
+    font-size: 0.4em;
+  }
+  
+  #error-in{
+    font-size: 0.4em;
   }
 }
