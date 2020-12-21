@@ -234,3 +234,44 @@ button.ghost{
 
        /*  B   R   E   A   K   */
 
+@media (max-width: 768px){
+  .container{
+    width: 100%;
+    min-height: 50%;
+
+  }
+  .container h1{
+    font-size: 1rem;
+  }
+  .container p, .container span{
+    font-size: 0.6rem;
+  }
+
+  form a{
+    font-size: 0.6rem;
+    margin: 4px 0;
+  }
+  
+  .form-container input{
+    font-size: 0.6rem;
+    padding: 0.4rem 0.6rem;
+    margin: 2px 0;
+    width: 100%;
+  }
+  .social-container{
+    margin: 8px 0;
+  }
+
+
+  .social-container a{
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    margin: 0 1px;
+
+  }
+  .container button{
+    font-size: 0.6rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
