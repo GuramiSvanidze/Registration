@@ -253,7 +253,7 @@ button.ghost{
   }
 
   form button{
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   
@@ -265,6 +265,7 @@ button.ghost{
   }
   .social-container{
     margin: 3px 0;
+    display: flex;
   }
 
 
